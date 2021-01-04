@@ -1,0 +1,263 @@
+
+/*		Tablet Layout: 768px.
+	Gutters: 24px.
+	Outer margins: 28px.
+	Inherits styles from: Default Layout.
+	-----------------------------------------------------------------
+	cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+	
+	.details {
+		top:150px;
+	}
+	.details h1{
+		font-size:70px;
+		
+	}
+}
+
+/*		Mobile Layout: 320px.
+	Gutters: 24px.
+	Outer margins: 34px.
+	Inherits styles from: Default Layout.
+	---------------------------------------------
+	cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+	
+	.details{
+		top:180px !important;
+	}
+	.details h1{
+		font-size:40px  ;
+		
+	}
+	.details h2{
+		font-size:30px;
+		
+	}
+	.Meet-our-team .social-media{
+		
+		top:100px;
+		left:0px;
+		right:0px;
+		
+	}
+	.Meet-our-team .social-media i{
+		
+		padding:10px;
+		font-size:23px;	
+	}
+	
+	.caption i{
+		
+		margin-bottom:10px !important;
+	}
+	.Testimonial-Extra .media-body{
+		display:block;
+		padding:0px 0px;
+		
+	}
+	.Testimonial-Extra .media-left{
+		
+		padding:20px;
+	}
+	.Testimonial .media-body{
+	display:block;
+	padding:0px;
+	
+	
+}
+	.Testimonial .media-left{
+	border:none;
+	padding:20px;
+
+	
+	
+}
+}
+
+/*	Wide Mobile Layout: 480px.
+	Gutters: 24px.
+	Outer margins: 22px.
+	Inherits styles from: Default Layout, Mobile Layout.
+	------------------------------------------------------------
+	cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	.details{
+		top:80px !important;
+	}
+	.Meet-our-team .social-media{
+		
+		top:180px;
+		left:0px;
+		right:0px;
+		
+	}
+	.Meet-our-team .social-media i{
+		
+		padding:14px;
+		font-size:27px;	
+		
+	}
+	
+}
+/* Nexus 7 - Portrait and Kindle Fire - Portrait  */
+@media only screen and (max-width: 600px) {
+	
+	.details{
+		top:180px !important;
+	}
+}
+@media only screen and (max-width: 768px) {
+	
+	/*. Header section responsive design start=============================================================*/
+	label{
+		display:block !important;
+		
+	}
+	header{
+		
+		position:relative;
+	}
+	.menu-list{
+		position:absolute;
+		top:50px;
+		left:0px;
+		opacity:0;
+		width:100%;
+		transform:translateX(-100%);
+		transition:all 0.3s;
+		
+	}
+	.menu-list a{
+		border-bottom:1px solid  #fff;
+	}
+	.single-slider{
+		
+		top:0;
+		position: relative;
+	}
+	.menu-list ul{
+		
+		display:block;
+		background-color: #080708;
+	}
+	.menu-list ul ul  a{
+		
+		padding:15px 40px;
+		background:#1E2432;
+		color:#fff
+		border-bottom:1px solid  #fff;
+		
+	}
+	.menu-list ul li:hover ul{
+		
+		display:none;
+		position:static;
+	}
+	.menu-list span{
+		
+		position:absolute;
+		right:5px;	
+	}
+	#btn-menu:checked ~.menu-list{
+		opacity:1;
+		transform:translateX(0%);
+	}
+	/*. Header section responsive design end=============================================================*/
+	
+}
+
+/* iphone 5 */
+@media (max-width: 320px) {
+	
+	.caption i{
+		
+		font-size:20px !important;
+		color:#42FF00;
+		margin-bottom:10px !important;
+	}
+	.caption{
+		
+		padding:10px 10px;
+	}
+	.caption p{
+		
+		line-height:15px;
+	}
+}
+
+}
+/* Samsung Galaxy s6 and htc portrait */
+@media (max-width: 360px) {
+	
+	.caption i{
+		
+		font-size:30px;
+		color:#42FF00;
+		margin-bottom:20px;
+	}
+	.caption{
+		
+		padding:10px 10px;
+	}
+	.caption p{
+		
+		line-height:15px;
+	}
+}
+/* iphone 5(Landscape)*/
+@media (max-width: 568px) {
+
+	.media-body{
+		padding:0px;
+		
+		
+	}
+	.details-extra {
+		top:50px !important;
+	}
+	hr {
+		
+		margin-top:20px;
+	}
+}
+@media only screen (max-width: 1024px) {
+	
+	
+	.Meet-our-team .social-media{
+		
+		top:100px;
+		left:0px;
+		right:0px;
+		
+	}
+	.Meet-our-team .social-media i{
+		
+		padding:14px;
+		font-size:27px;	
+		
+	}
+	
+}
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	
+	body {
+		
+	}
+	
+	}					

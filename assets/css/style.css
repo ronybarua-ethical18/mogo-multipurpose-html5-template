@@ -1,0 +1,983 @@
+/* ================================================
+	Template Name: Mogo Responsive Template
+	Template URI: http://marveltheme.com/tf/html/digita/digita/index.html
+	Description: Corporate Business HTML5 Template
+	Author: "Rony Jackson"
+	Author URI: www.facebook.com/ronybarua.cmt
+	Version: 1.0
+	===================================================
+	
+	##CSS TABLE OF CONTENT
+	--------------------------------
+	1. THEME BASIC CSS
+	2. GLOBAL DESIGN
+	3. HEADER DESIGN
+	4. SLIDER DESIGN
+	5. STORY ABOUT US
+	6. AMAZING-SERVICE
+	7. UNIQUE-DESIGN
+	8. WHAT WE DO
+	9. TESTIMONIAL
+	10.CLIENTS-LOGO
+	11.TESTIMONIAL-EXTRA
+	12.SOME OF OUR WORK
+	13.WHAT PEOPLE SAY
+	14.BLOG SECTION
+	15.MAP
+	16.FOOTER
+================================================ */
+
+/*1. THEME BASIC CSS START=============================================================*/
+*{
+	
+	
+	padding: 0;
+	
+	
+}
+html,body{
+	height:100%;
+	width:100%;
+}
+body{
+	background-color:#ffff;
+	color:#333333;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 26px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #fff;
+    font-style: normal;
+    font-weight: 800;
+    margin-top: 0;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+h1 {
+    font-size: 100px;
+}
+
+h2 {
+    font-size: 50px;
+	font-family: 'Kaushan Script', cursive;
+}
+
+h3 {
+    font-size: 30px;
+	color: #333;
+}
+
+h4 {
+    font-size: 24px;
+	font-family: 'Kaushan Script', cursive;
+	color: #333;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 14px;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 20px;
+	color: #333;
+}
+a{
+	
+	
+	color:#fff;
+	-webkit-transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-o-transition:all 0.3s ease-in-out;
+	transition:all 0.3s ease-in-out;
+	text-decoration: none;
+	display:block;
+	text-transform: uppercase;
+	font-family: 'Kaushan Script', cursive;
+	
+}
+a:hover,
+a:focus,
+a:active{ 
+	color:#F7CB88;
+	text-decoration: none; 
+	outline:none;
+	
+}
+p {
+    color: #999999;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 90px;
+	font-family: 'Kaushan Script', cursive;
+	
+}
+label{
+	font-size:30px;
+	display:none !important;
+	margin-right:10px;
+	cursor:pointer;
+}
+blockquote{
+	
+	font-size:18px;
+	border-left:none;
+	font-family: 'Kaushan Script', cursive;
+	color: #999999;
+}
+span{
+	
+	color:#F31F00;
+}
+b, strong{
+	font-weight: 600px;
+	font-size:50px;
+	color:#fff;
+	
+}
+hr {
+    border-color: #F38181 !important;
+    border-width: 3px !important;
+    max-width: 50px !important;
+	margin-top:40px;
+	margin-bottom:40px;
+}
+img{
+	width: 100%;
+	height:100%;
+}
+.bg{
+	background-color:rgba(255,255,255,0.8);
+	z-index:1;
+	
+	
+}
+.bg2{
+	background-color:rgba(0,0,0,0.6);
+	z-index:1;
+	
+	
+}
+
+input{
+	
+	padding:5px;
+}
+/*1. THEME BASIC CSS END=============================================================*/
+
+/*--------------------------------------------------------------------------------------------*/
+
+/*2.GLOBAL DESIGN START=============================================================*/
+.global-margin{
+	margin-top:110px;
+	margin-bottom:110px;
+}
+.global-padding{
+	
+	padding-top:100px;
+	text-align:center;
+}
+.global-padding-Extra{
+	
+	padding-top:100px;
+	padding-bottom:100px;
+}
+.heading-margin{
+	
+    margin-bottom:24px;	
+}
+.owl-nav div{
+	
+	
+	font-size:30px;
+	line-height:40px;
+	position:absolute;
+	height:40px;
+	top:50%;
+	left:0px;
+	width:40px;
+	padding:5px;
+	text-align: center;
+	transform:translateY(-50%);
+	
+}
+.owl-nav div.owl-next{
+	
+	left:auto;
+	right:0px;
+}
+.owl-nav{
+	
+	color:#95E1D3;
+}
+/*2. GLOBAL DESIGN END=============================================================*/
+
+/*--------------------------------------------------------------------------------------------*/
+
+/*3. Header section design start=============================================================*/
+
+header{
+	
+	color:#fff;
+	display:flex;
+	align-items:center;
+	justify-content:flex-end;
+	z-index: 2;
+	position:absolute;
+	top:30px;
+	text-align: left;
+	width:100%;
+	
+}
+.menu-list ul{
+	
+	display:flex;
+	list-style:none;
+	
+	
+}
+.menu-list ul  ul  li  a:hover{
+	background-color: #fff;
+	color:#000;
+}
+.menu-list ul ul{
+	
+	display:none;
+}
+.menu-list a{
+	padding:10px 20px 10px 20px;
+}
+.menu-list ul li:hover ul{
+	display:block;
+	position: absolute;
+	background-color: #01152D;
+	text-align: left;
+	z-index: 2;
+	
+}
+.menu-list ul li:hover ul a{
+	border-bottom:1px solid  #fff;
+	
+}
+.menu-list span{
+	
+	margin-left: 10px;
+	
+}
+#btn-menu{
+	display:none;
+	
+}
+/*3. Header section design end=============================================================*/
+
+/*--------------------------------------------------------------------------------------------*/
+
+/*4. Slider section design start=============================================================*/
+.details{
+	position:absolute;
+	top:180px;
+	height:auto;
+	z-index:1;
+	width:100%;
+	padding:0 50px;
+}
+
+.details a{
+	
+	padding:10px 20px;
+	border:1px solid #fff;
+	width:auto;
+}
+.hyper{
+	
+	position:absolute;
+	top:120%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	width:150px;
+	height:100px;
+}
+.details a:hover{
+	
+	background:#F31F00;
+	color:#fff;
+	border:1px solid transparent;
+}
+
+/* owl-carousel control design start----------------------------------------------------------*/
+.slider .owl-nav div{
+	
+	background:#fff none repeat scroll 0 0;
+	border-radius:100px;
+	font-size:25px;
+	border:2px solid #fff;
+	line-height:40px;
+	position:absolute;
+	height:40px;
+	top:50%;
+	left:30px;
+	width:40px;
+	padding:5px;
+	text-align: center;
+	transform:translateY(-50%);
+	
+}
+.slider .owl-nav div:hover{
+	
+	background-color: #F31F00;
+	color:#fff;
+}
+.slider .owl-nav div.owl-next{
+	
+	left:auto;
+	right:30px;
+	
+}
+.slider .owl-dot{
+	height:15px;
+	width:15px;
+	margin:0 5px;
+	border-radius:50%;
+	background:#fff;
+	display:inline-block;
+	
+	
+}
+.slider .owl-dots{
+	position:absolute;
+	text-align: center;
+	left:0;
+	right:0;
+	bottom:20px;
+	
+	
+}
+.slider .owl-dot.active{
+	background:#F8985B;
+	
+}
+/* owl-carousel control design end----------------------------------------------------------*/
+
+/*4. Slider section design end=============================================================*/
+
+
+
+/*5. Story about us section design start=============================================================*/
+.item-image{
+	box-shadow: 15px 15px 0px #333333;
+    display: inline-block;
+    margin-right: 30px;
+    position: relative;
+	margin-bottom:40px;
+	overflow:hidden;
+	background-color:#000;
+	
+}
+
+.item-image img{
+	
+	height:auto;
+	transition:all 0.5s;
+}
+.col-md-4:hover .item-image img{
+	transform:rotate(-10deg) scale(1.3);
+	opacity:.4;
+	
+}
+
+.caption{
+	position:absolute;
+	top:20px;
+	right:20px;
+	bottom:20px;
+	left:20px;
+	opacity:0;
+	padding:20px 20px;
+	color:#fff;
+	
+	
+	
+	
+}
+.image-gallery .caption i{
+	font-size:40px;
+	color:#42FF00;
+	margin-bottom:20px;
+	
+}
+.caption p{
+	
+	color:#fff;
+	font-family: 'Kaushan Script', cursive;
+	font-size:15px;
+}
+.caption:before{
+	position:absolute;
+	content:'';
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	border-top:1px solid #fff;
+	border-bottom:1px solid #fff;
+	box-sizing:border-box;
+	transition:all 0.6s;
+	transform:scale(0,1);
+	
+}
+
+.col-md-4:hover .caption:before{
+	
+	transform:scale(1,1);
+	
+}
+.caption:after{
+	position:absolute;
+	content:'';
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	border-left:1px solid #fff;
+	border-right:1px solid #fff;
+	box-sizing:border-box;
+	transition:all 0.6s;
+	transform:scale(1,0);
+	
+}
+.col-md-4:hover .caption:after{
+	
+	transform:scale(1,1);
+	
+}
+.col-md-4:hover .caption{
+	
+	opacity:1;
+	
+}
+.Company-Statistics{
+	
+	width:100%;
+	height:auto;
+	background-color: #95E1D3;
+	color:#fff;
+	border-left:1px solid #fff;
+	border-right:1px solid #fff;
+	
+}
+.Company-Statistics .col-md-3{
+	
+	margin-bottom:80px;
+	margin-top: 80px;
+	border-left:1px solid #fff;
+	border-right:1px solid #fff;
+	
+	
+}
+.icon i{
+	
+	font-size:50px;
+	margin-bottom:30px;
+}
+.Company-Statistics h4{
+	
+	color:#fff;
+	margin-top:30px;
+}
+/*5. Story about us section design end=============================================================*/
+
+
+/*--------------------------------------------------------------------------------------------*/
+
+/*6.Amazing-service section design start=====================================================*/
+.Service-icon i{
+	
+    color: #95E1D3;
+    display: inline-block;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+.Service-icon{
+	
+	position:absolute;
+	top:45px;
+}
+.Service-Description{
+	
+	margin-left:60px;	
+	position:relative;
+	height:auto;
+	margin-bottom:45px;
+	margin-top:45px;
+}
+.Service-Description p{
+	text-align: left;
+	margin:0;
+	
+	
+}
+.Service-Description h6{
+	text-align: left;
+}
+
+/*6.Amazing-service section design end=====================================================*/
+
+/*--------------------------------------------------------------------------------------------*/
+
+/*7.Unique-design section start=====================================================*/
+
+.Unique-design-background{
+	
+	width:auto;
+	z-index:-1;
+	
+}
+
+.image-set img{
+	
+	margin-left:50%;
+	width:auto;
+	transform:translate(-50%,-0%);
+	
+}
+/*7.Unique-design section end=====================================================*/
+
+/*--------------------------------------------------------------------------------------------*/
+
+/*8.What-we-do design section start=====================================================*/
+.What-we-do img,
+.What-we-do .col-md-6{
+	height:auto;
+	
+}
+.What-we-do .col-md-6{
+	margin-bottom:20px;
+	
+}
+.fa-icon{
+	position: absolute;
+	right:10px;
+}
+.Accordion-Section i{
+	color:#95E1D3;
+	font-size:20px;
+	margin-right: 10px;
+}
+.Accordion-Section a{
+	font-family: 'Montserrat', sans-serif;
+	font-size:14px;
+}
+.panel-default>.panel-heading {
+    background-color: transparent;
+    border-color: #ddd;
+}
+.panel-body p{
+	
+	margin:0;
+	color:#fff;
+}
+.panel-body{
+	
+	background-color:#01152D !important;
+}
+/*8.What-we-do design section end=====================================================*/
+
+/*--------------------------------------------------------------------------------------------*/
+
+/*9.Testimonial design section start=====================================================*/
+.Testimonial{
+	
+	background-color:#F8F8F8;
+	padding:70px 0px;
+	text-align:left;
+}
+.icon-set i{
+	
+	font-size:50px;
+	color:#95E1D3;
+	padding:10px;
+	border-radius:100px;
+	border:2px solid #95E1D3;
+}
+.Testimonial h6{
+	
+	margin: 10px;
+	margin:10px 0px 0px 0px;
+}
+.media-left{
+	
+	border:2px solid #95E1D3;
+	vertical-align:middle;
+	padding:0px 40px;
+}
+.media-body{
+	padding:0px 20px;
+	width:auto;
+	
+}
+.media-body hr{
+	border-color: #F38181 ;
+    border-width: 3px;
+    max-width: 50px;
+	text-align: left !important;
+	margin: 10px 10px 0px 0px;
+	
+}
+.quote{
+	
+	margin:0 50px;
+}
+/*9.Testimonial design section end=====================================================*/
+
+
+.Meet-our-team .social-media i{
+	
+	margin: 5px;
+	color:#fff;
+	padding:12px;
+	font-size:25px;	
+	cursor:pointer;
+	border:1px solid #fff;
+	border-radius:5px;
+}
+.social-media i:hover{
+	
+	background-color:#fff;
+	color:#FD5747;
+	-webkit-transition:all 0.5s ease-in-out;
+	transition:all 0.5s ease-in-out;
+}
+.social-media{
+	
+	position:absolute;
+	top:150px;
+	left:15px;
+	right:15px;
+	bottom:150px;
+	z-index:2;
+}
+.role p{
+	
+	margin-top:10px;
+	margin-bottom:0px;
+}
+.role h6{
+	
+	margin:0px;
+}
+
+
+/*10.CLIENTS-LOGO SECTION DESIGN START=================================================*/
+.Slider-border {
+	padding:3% 3%;
+}
+.client-logo img {
+    width: 110px;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+	display:inline-block;
+	;
+}
+.client-logo{
+	width:auto;
+	height:auto;
+	margin:5px;
+	padding:5px;
+	
+}
+
+.owl-carousel .owl-item img{
+	
+	border:none;
+}
+.Client-logo:hover img {
+	-webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.Client-logo-view{
+	
+	
+	padding:0% 7%;
+}
+
+.Client-logo-view .owl-nav div{
+
+	text-align: center;	
+}
+.Clients-Logo{
+	background-color:#F8F8F8;
+	
+}
+.Client-logo-view .owl-nav{
+	
+	color:#000;
+	}
+/*10.CLIENTS-LOGO SECTION DESIGN END=================================================*/
+
+
+/*11.TESTIMONIAL-EXTRA SECTION DESIGN START=================================================*/
+.Testimonial-Extra .media-left{
+	
+	padding:0px;
+	margin:0;
+	vertical-align:top;
+	border:none;
+}
+.Testimonial-Extra{
+	
+	text-align: left;
+	
+}
+.item-image-Extra{
+	overflow:hidden;
+	background:#000;
+}
+.Testimonial-Extra h6{
+	
+	margin: 10px;
+	margin:10px 0px 0px 0px;
+}
+
+.Testimonial-Extra .media-body hr{
+	text-align: left !important;
+	
+}
+
+/*11.TESTIMONIAL-EXTRA SECTION DESIGN END=================================================*/
+
+
+/*12.SOME OF OUR WORK SECTION DESIGN START=================================================*/
+.image-gallery-Extra img{
+	
+	height:auto;
+	transition:all 0.5s;
+	
+	
+}
+.image-gallery-Extra .col-md-3{
+	
+	
+	padding:0;
+}
+.container-fluid{
+	
+	margin:0;
+	padding:0;
+}
+
+.col-md-3:hover .caption{
+	
+	opacity:1;
+	transition:all 0.5s;
+}
+.col-md-3:hover .item-image-Extra img{
+	transform:rotate(350deg) scale(1.5);
+	opacity:.4;
+	
+}
+.item-image-Extra i{
+	
+	font-size:35px;
+	color:#E47137 !important;
+	border:2px solid #fff;
+}
+.item-image-Extra i:hover{
+	
+	background:#fff;
+	border:2px solid transparent;
+	transition:all 0.3s;
+}
+.item-image-Extra h6{
+	
+	color:#fff;
+}
+.item-image-Extra a{
+	display:inline-block;
+}
+
+/*12.SOME OF OUR WORK SECTION DESIGN END=================================================*/
+
+/*13.WHAT PEOPLE SAY SECTION DESIGN START=================================================*/
+.Service-icon i{
+	
+    color: #95E1D3;
+    display: inline-block;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+.What-people-say .Service-icon{
+	
+	position:absolute;
+	top:45px;
+}
+.What-people-say .Service-Description{
+	
+	margin-left:120px;	
+	position:relative;
+	height:auto;
+	margin-bottom:45px;
+	margin-top:45px;
+}
+.What-people-say .Service-Description p{
+	text-align: left;
+	margin:0;
+	
+	
+}
+.What-people-say .Service-Description h6{
+	text-align: left;
+}
+
+.Clients-Review hr{
+	text-align: left !important;
+	margin: 10px 10px 10px 0px;
+	
+}
+/*13.WHAT PEOPLE SAY SECTION DESIGN END=================================================*/
+/*14.BLOG SECTION DESIGN START===================================*/
+.blog img{
+	height:auto;
+	
+}
+.blog .col-sm-6:hover{
+	
+	box-shadow:10px 10px 20px rgba(0,0,0,0.3);
+	-webkit-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+	
+	
+}
+.blog b{
+	font-size:30px;
+	margin:0;
+	
+}
+.blog p{
+	margin:0;
+	color:#fff;
+	
+}
+.sub-item{
+	
+	position:relative;	
+}
+.date-time{
+	
+	position:absolute;
+	background-color:#95E1D3;
+	color:#fff;
+	padding:10px;
+	bottom:0;
+	width:65px;
+	height:75px;
+}
+.Blog-title{
+	color:#999999;
+	text-align: left;
+}
+.Blog-title p{
+	color:#999999;
+}
+.Blog-title hr{
+	max-width:100% !important;
+	margin:20px 0px;
+	border-width:1px !important;
+	border-color: #3333 !important;
+}
+.Blog-title i{
+	
+	color:#95E1D3;
+	margin-right:10px;
+	font-size:18px;
+	
+	
+}
+.blog .col-md-4{
+	
+	margin-bottom: 20px;
+	}
+.font-icon{
+	
+	margin-left: 10px;
+}
+/*14.BLOG SECTION DESIGN END===================================*/
+
+/*15.Map zone design start===================================*/
+#map {
+	
+	width:100%;
+	height:100%;
+}
+/*15.Map zone design end===================================*/
+
+
+.followers a{
+	
+	display:inline-block;
+}
+.ending-part p{
+	margin-bottom:30px !important;
+	
+}
+.ending-part b{
+	font-size:18px;
+	color:#000;
+}
+.Subscribe{
+	padding:8px 20px;
+	background-color:#95E1D3;
+}
+.Subscribe:hover{
+	color:#fff;
+}
+.social-web{
+	margin-bottom: 20px;
+	}
+
+.blog-image2{
+	margin-top: 35px;
+	
+	}
+.ending-part h6{
+	
+	margin:0;
+	}
+.blog-image p{
+	font-size:14px;
+	
+	}
+.instagram img{
+	display:inline;
+	width:auto;
+	height:auto;
+	margin-right:5px;
+	margin-bottom:5px;
+}	
+	.instagram {
+	margin-top: 35px;
+	}
+
+.ending-part .col-md-4{
+	
+	margin-bottom: 20px;
+	
+	
+	}
+.footer-title{
+	
+	margin-top:50px;
+	border-top:1px solid silver;
+	padding:20px;
+	}
